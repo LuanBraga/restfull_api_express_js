@@ -2,6 +2,8 @@
 
 dependencies = express, nodemon, config, body-parser, consign and uuidV4.
 
+after download this project you must run => npm i
+
 start api => npm start
 
 GET => /api/v1/products
