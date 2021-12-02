@@ -1,6 +1,6 @@
 # restfull_api_express_js
 
-packages = nodemon, body-parser and consign.
+dependencies = express, nodemon, config, body-parser, consign and uuidV4.
 
 start api => npm start
 
