@@ -2,30 +2,30 @@
     "products": {
         "data": [
             {
-                "id": "1",
+                "id": "99da75c5-31a2-a030-4b21-9b2e69c55a28",
                 "code": "420",
                 "name": "cannabis",
-                "unitPrice": "1",
+                "unitPrice": "3",
                 "description": "the flower of gods",
                 "fabricationDate": "4/2/00",
                 "expirationDate": "4/2/01",
                 "inStock": "true"
             },
             {
-                "id": "2",
+                "id": "98da75c5-31a2-4b21-a030-9b2e69c55a28",
                 "code": "666",
                 "name": "psilocybe cubensis",
-                "price": "2",
+                "unitPrice": "1",
                 "description": "fungi is not animal",
                 "fabricationDate": "6/6/06",
                 "expirationDate": "6/6/07",
                 "inStock": "true"
             },
             {
-                "id": "3",
+                "id": "94da75c5-31a2-4b21-a030-9b2e69c55a28",
                 "code": "999",
                 "name": "lysergic acid",
-                "price": "3",
+                "unitPrice": "1",
                 "description": "true trip",
                 "fabricationDate": "16/2/02",
                 "expirationDate": "16/2/03",
