@@ -20,6 +20,30 @@ module.exports = app => {
         });
 
         res.status(201).json(productsMock);
-    }
+    };
+
+    controller.removeProducts = (req, res) => {
+        const {
+            productId
+        } = req.params;
+
+        const foundProductIndex = productsMock.data.findIndex(product => product.id === productId);
+
+        if (foundProductIndex === -1) {
+            res.status(404).json({
+                message: 'Product not found on base',
+                success: false,
+                products: productsMock,
+            });
+        }else {
+            productsMock.data.splice(foundProductIndex, 1);
+            res.status(200).json({
+                message: 'Product found and deleted with success',
+                success: true,
+                products: productsMock,
+            });
+        }
+    };
+
     return controller;
 }
