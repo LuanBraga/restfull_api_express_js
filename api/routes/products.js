@@ -6,5 +6,6 @@ module.exports = app => {
         .post(controller.saveProducts);
     
     app.route('/api/v1/products/:productId')
-        .delete(controller.removeProducts);
+        .delete(controller.removeProducts)
+        .put(controller.updateProducts);
 }

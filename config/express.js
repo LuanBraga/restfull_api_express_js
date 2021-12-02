@@ -10,8 +10,6 @@ module.exports = () => {
 
     app.use(bodyParser.json());
 
-    // require('../api/routes/products')(app);
-
     consign({cwd: 'api'})
         .then('data')
         .then('controllers')
